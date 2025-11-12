@@ -19,3 +19,36 @@ A modular Streamlit dashboard for forecasting retail sales using ARIMA and Proph
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## 📸 Dashboard Screenshots
+
+### 🔹 Single Store Forecast (Store 1)
+<img src="prophet_forecast_store1.png" width="600"/>
+
+### 🔹 Prophet Components
+<table>
+  <tr>
+    <td><img src="prophet_components_trend_weekly.png" width="400"/></td>
+    <td><img src="prophet_components_yearly_weekly.png" width="400"/></td>
+  </tr>
+</table>
+
+### 🔹 Prophet Full Components + Metrics
+<img src="prophet_components_full_metrics.png" width="600"/>
+
+### 🔹 Multi-Store Forecast Comparison
+<table>
+  <tr>
+    <td><img src="multi_store_forecast_prophet.png" width="400"/></td>
+    <td><img src="multi_store_forecast_arima.png" width="400"/></td>
+  </tr>
+</table>
+
+### 🔹 Model Comparison: ARIMA vs Prophet (Store 111)
+<table>
+  <tr>
+    <td><img src="model_comparison_forecast_store111.png" width="400"/></td>
+    <td><img src="model_comparison_metrics_store111.png" width="400"/></td>
+  </tr>
+</table>
+
